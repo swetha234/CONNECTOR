@@ -89,25 +89,23 @@ const ProfileSchema = new mongoose.Schema({
       }
     }
   ],
-  social: [
-    {
-      youtube: {
-        type: String
-      },
-      facebook: {
-        type: String
-      },
-      twitter: {
-        type: String
-      },
-      linkenIn: {
-        type: String
-      },
-      instagram: {
-        type: String
-      }
+  social: {
+    youtube: {
+      type: String
+    },
+    facebook: {
+      type: String
+    },
+    twitter: {
+      type: String
+    },
+    linkenIn: {
+      type: String
+    },
+    instagram: {
+      type: String
     }
-  ],
+  },
   date: {
     type: Date,
     default: Date.now

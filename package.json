@@ -20,7 +20,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "debug": "node --debug server.js"
   },
   "author": "Swetha gutti",
   "license": "MIT"
