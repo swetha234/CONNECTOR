@@ -26,7 +26,9 @@
     "server": "nodemon server",
     "debug": "node --debug server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+     "build": "run-p build:**",
+    "build:app": "react-scripts build",
   },
   "author": "Swetha gutti",
   "license": "MIT",
