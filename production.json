@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://swe123:swe123@connector-d4bv6.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtToken": "mysecrettoken",
+  "githubClientId": "0c922258256f622e3ef8",
+  "githubSecret": "9017dc0fdf652fdc4a16e9b54d121fa1ac117237"
+}
