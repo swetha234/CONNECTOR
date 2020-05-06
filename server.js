@@ -17,6 +17,7 @@ app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/auth', require('./routes/api/auth'));
 
 if (process.env.NODE_ENV === 'production') {
+  //build
   app.use(express.static('client/build'));
 
   app.get('*', (req, res) => {
